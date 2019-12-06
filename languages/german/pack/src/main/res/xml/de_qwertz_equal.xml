@@ -34,7 +34,7 @@
     </Row>
     
     <Row android:keyWidth="9.09%p">
-        <Key android:keyWidth="12.26%p" android:codes="-1" android:isModifier="true" android:isSticky="true" android:keyEdgeFlags="left"/>
+        <Key android:keyWidth="12.27%p" android:codes="-1" android:isModifier="true" android:isSticky="true" android:keyEdgeFlags="left"/>
         <Key android:codes="121" android:keyLabel="y" android:popupCharacters="/"/>
         <Key android:codes="120" android:keyLabel="x" android:popupCharacters="*"/>
         <Key android:codes="99" android:keyLabel="c" android:popupCharacters="+"/>
