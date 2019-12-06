@@ -25,4 +25,9 @@
               defaultDictionaryLocale="de"
               index="5" defaultEnabled="false"
               physicalKeyboardMappingResId="@xml/german_neo2_physical" />
+    <Keyboard nameResId="@string/de_keyboard_equal" iconResId="@drawable/ic_status_german"
+              layoutResId="@xml/de_qwertz_equal" id="14d83e37-0182-4162-9dac-b32f7c4d5d34"
+              defaultDictionaryLocale="de"
+              index="6" defaultEnabled="false"
+              physicalKeyboardMappingResId="@xml/german_physical" />
 </Keyboards>
