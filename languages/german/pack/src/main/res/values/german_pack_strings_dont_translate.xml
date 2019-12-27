@@ -7,11 +7,12 @@
 
     <string name="de_keyboard">German</string>
     <string name="de_keyboard_description">Created with tudor and Claude Philipona</string>
-    <string name="de_keyboard_broad">German broad</string>
-    <string name="de_keyboard_broad_description">Slightly broader layout with umlauts as popups (saving keys)</string>
-    <string name="de_keyboard_extra">German broad+</string>
-    <string name="de_keyboard_extra_description">Slightly broader layout with umlauts as popups (saving keys), also additional characters</string>
+    <string name="de_keyboard_broad">Deutsch2</string>
+    <string name="de_keyboard_broad_description">broader layout with umlauts as popups</string>
+    <string name="de_keyboard_extra">Deutsch3</string>
+    <string name="de_keyboard_extra_description">broader layout with umlauts as popups, command bar</string>
     <string name="de_keyboard_neo2">German neo2</string>
     <string name="de_keyboard_neo2_simple">German neo2 simple</string>
     <string name="de_keyboard_equal">Deutsch</string>
+	<string name="de_keyboard_equal_description">narrow layout with umlauts</string>
 </resources>
