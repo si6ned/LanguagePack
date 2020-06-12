@@ -8,11 +8,15 @@
     <string name="de_keyboard">German</string>
     <string name="de_keyboard_description">Created with tudor and Claude Philipona</string>
     <string name="de_keyboard_broad">Deutsch2</string>
+	<string name="de_keyboard_broad_less">Deutsch</string>
     <string name="de_keyboard_broad_description">broader layout with umlauts as popups</string>
-    <string name="de_keyboard_extra">Deutsch3</string>
+    <string name="de_keyboard_extra">Deutsch+2</string>
+	<string name="de_keyboard_extra_less">Deutsch+</string>
     <string name="de_keyboard_extra_description">broader layout with umlauts as popups, command bar</string>
     <string name="de_keyboard_neo2">German neo2</string>
     <string name="de_keyboard_neo2_simple">German neo2 simple</string>
-    <string name="de_keyboard_equal">Deutsch</string>
+    <string name="de_keyboard_equal">Deutsch-</string>
 	<string name="de_keyboard_equal_description">narrow layout with umlauts</string>
+	<string name="de_keyboard_morse">Morse</string>
+	<string name="de_keyboard_morse_description">simple Morse keyboard</string>
 </resources>
