@@ -9,16 +9,16 @@
 	android:horizontalGap="0px" android:verticalGap="0px"-->
 
 	<Row android:rowEdgeFlags="top" android:keyHeight="@integer/key_short_height">
-		<Key android:codes="223" android:keyLabel="ß" android:keyEdgeFlags="left"/>
+		<Key android:codes="-20" android:isRepeatable="true" android:keyEdgeFlags="left"/>
+		<Key android:codes="-21" android:isRepeatable="true"/>
+		<Key android:codes="-24"/>
+		<Key android:codes="-25"/>
+		<Key android:codes="@integer/key_code_clipboard_copy"/>
+		<Key android:codes="@integer/key_code_clipboard_cut"/>
+		<Key android:codes="@integer/key_code_clipboard_paste"/>
 		<Key android:codes="246" android:keyLabel="ö"/>
 		<Key android:codes="228" android:keyLabel="ä"/>
-		<Key android:codes="252" android:keyLabel="ü"/>
-		<Key android:codes="-2"/>
-		<Key android:codes="9"/>
-		<Key android:codes="-20"/>
-		<Key android:codes="-21"/>
-		<Key android:codes="-24"/>
-		<Key android:codes="-25" android:keyEdgeFlags="right"/>
+		<Key android:codes="252" android:keyLabel="ü" android:keyEdgeFlags="right"/>
 	</Row>
 	
 	<Row android:keyHeight="@integer/key_short_height">
@@ -39,8 +39,8 @@
         <Key android:codes="119" android:keyLabel="w" android:popupCharacters="#"/>
         <Key android:codes="101" android:keyLabel="e" android:popupCharacters="€"/>
         <Key android:codes="114" android:keyLabel="r" android:popupCharacters="$"/>
-        <Key android:codes="116" android:keyLabel="t" android:popupCharacters="£"/>
-        <Key android:codes="122" android:keyLabel="z" android:popupCharacters="¥✓✗☐☒©®™⚠⛔☠"/>
+        <Key android:codes="116" android:keyLabel="t" android:popupCharacters="£¥"/>
+        <Key android:codes="122" android:keyLabel="z" android:popupCharacters="✓✗☐☒©®™⚠⛔☠"/>
         <Key android:codes="117" android:keyLabel="u" android:popupCharacters="αβγδεζηθικλμνξοπρςστυφχψω"/>
         <Key android:codes="105" android:keyLabel="i" android:popupCharacters="Σ∏∫∮∂√∛∞Δ∇⊥∥∦∢"/>
         <Key android:codes="111" android:keyLabel="o" android:popupCharacters="∧∨∩∪⊂⊆⊄∈∉∀∃∄∅ℂℝℚℤℕ"/>
@@ -51,21 +51,21 @@
         <Key android:codes="97" android:keyLabel="a" android:popupCharacters="§" android:keyEdgeFlags="left"/>
         <Key android:codes="115" android:keyLabel="s" android:popupCharacters="ß&amp;"/>
         <Key android:codes="100" android:keyLabel="d" android:popupCharacters="_"/>
-        <Key android:codes="102" android:keyLabel="f" android:popupCharacters="\\/|"/>
+        <Key android:codes="102" android:keyLabel="f" android:popupCharacters="%‰"/>
         <Key android:codes="103" android:keyLabel="g" android:popupCharacters="^"/>
         <Key android:codes="104" android:keyLabel="h" android:popupCharacters="°"/>
-        <Key android:codes="106" android:keyLabel="j" android:popupCharacters="%‰"/>
+        <Key android:codes="106" android:keyLabel="j" android:popupCharacters="\\/|"/>
         <Key android:codes="107" android:keyLabel="k" android:popupCharacters="~"/>
 		<Key android:codes="108" android:keyLabel="l" android:popupCharacters="⇔⇐←⇒→"/>
-        <Key android:codes="-8" android:keyEdgeFlags="right"/>
+        <Key android:codes="223" android:keyLabel="ß" android:popupCharacters="öäü" ask:isFunctional="true" android:keyEdgeFlags="right"/>
     </Row>
     
     <Row android:keyWidth="10%p">
         <Key android:keyWidth="15%p" android:codes="-1" android:isModifier="true" android:isSticky="true" android:keyEdgeFlags="left"/>
         <Key android:codes="121" android:keyLabel="y" android:popupCharacters="/÷"/>
         <Key android:codes="120" android:keyLabel="x" android:popupCharacters="*×"/>
-        <Key android:codes="99" android:keyLabel="c" android:popupCharacters="+"/>
-        <Key android:codes="118" android:keyLabel="v" android:popupCharacters="-"/>
+        <Key android:codes="99" android:keyLabel="c" android:popupCharacters="-"/>
+        <Key android:codes="118" android:keyLabel="v" android:popupCharacters="+"/>
         <Key android:codes="98" android:keyLabel="b" android:popupCharacters="±"/>
         <Key android:codes="110" android:keyLabel="n" android:popupCharacters="=≠≈\u2259\u2254"/>
         <Key android:codes="109" android:keyLabel="m" android:popupCharacters="&lt;≤&gt;≥"/>
